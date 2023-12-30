@@ -17,7 +17,6 @@ ProductTag.init(
       references: {
         model: 'product',
         key: 'id',
-        unique: false
       }
     },
     tag_id: {
